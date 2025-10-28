@@ -95,7 +95,7 @@ const translations = {
     amountToPay: 'Amount to pay:',
     shape: 'Shape',
     method: 'Method',
-    fullName: 'Full Name',
+    fullNamePayment: 'Full Name',
     email: 'Email',
     phone: 'Phone',
     phoneOptional: 'Phone (optional)',
@@ -105,12 +105,13 @@ const translations = {
     securePayment: 'Secure SSL Payment',
     acceptedPayments: 'We accept: BLIK, Visa, Mastercard, Apple Pay, Google Pay',
     orderInfo: 'ℹ️ Your order will be sent via email. After payment we\'ll contact you about production details.',
+
     
     // Email Offer Modal
-    emailOfferTitle: 'Send Email Offer',
+     emailOfferTitle: 'Send Email Offer',
     configSummary: 'Configuration Summary:',
     subject: 'Subject',
-    subjectPlaceholder: 'How can we help?',
+    subjectPlaceholderEmail: 'How can we help?',
     message: 'Message',
     additionalNotes: 'Additional notes (optional)',
     additionalNotesPlaceholder: 'Additional information, questions or special requirements...',
@@ -192,17 +193,7 @@ const translations = {
     qualityDesc: 'We stand behind every product we create',
     
     // Contact
-    getInTouch: 'Get In Touch',
-    letsCreate: 'Let\'s Create Something Amazing',
-    contactDescription: 'Have a project in mind? We\'d love to hear from you. Send us a message and we\'ll respond as soon as possible.',
-    connectWithUs: 'Connect With Us',
-    emailUs: 'Email Us',
-    responseTime: 'We typically respond within 24 hours',
-    callUs: 'Call Us',
-    workingHours: 'Mon-Fri from 9:00 to 17:00',
-    visitUs: 'Visit Us',
-    scheduleAppointment: 'By appointment only',
-    fullName: 'Full Name',
+     fullName: 'Full Name',
     emailAddress: 'Email Address',
     subjectPlaceholder: 'What can we help you with?',
     messagePlaceholder: 'Tell us about your project...',
@@ -210,7 +201,6 @@ const translations = {
     messageSent: 'Message Sent!',
     thankYou: 'Thank you for reaching out! We\'ll get back to you within 24 hours.',
     sendAnother: 'Send Another Message',
-    
     // Footer
     footerDescription: 'We transform ideas into reality.',
     company: 'Company',
@@ -302,7 +292,7 @@ const translations = {
     amountToPay: 'Do zapłaty:',
     shape: 'Kształt',
     method: 'Metoda',
-    fullName: 'Imię i Nazwisko',
+    fullNamePayment: 'Imię i Nazwisko',
     email: 'Email',
     phone: 'Telefon',
     phoneOptional: 'Telefon (opcjonalnie)',
@@ -312,12 +302,13 @@ const translations = {
     securePayment: 'Bezpieczna płatność SSL',
     acceptedPayments: 'Akceptujemy: BLIK, Visa, Mastercard, Apple Pay, Google Pay',
     orderInfo: 'ℹ️ Twoje zamówienie zostanie wysłane na email. Po płatności skontaktujemy się w sprawie szczegółów produkcji.',
+
     
     // Email Offer Modal
-    emailOfferTitle: 'Wyślij Ofertę Email',
+      emailOfferTitle: 'Wyślij Ofertę Email',
     configSummary: 'Podsumowanie Konfiguracji:',
     subject: 'Temat',
-    subjectPlaceholder: 'W czym możemy pomóc?',
+    subjectPlaceholderEmail: 'W czym możemy pomóc?',
     message: 'Wiadomość',
     additionalNotes: 'Dodatkowe uwagi (opcjonalnie)',
     additionalNotesPlaceholder: 'Dodatkowe informacje, pytania lub specjalne wymagania...',
@@ -399,16 +390,6 @@ const translations = {
     qualityDesc: 'Stoimy za każdym produktem, który tworzymy',
     
     // Contact
-    getInTouch: 'Skontaktuj Się',
-    letsCreate: 'Stwórzmy Coś Niesamowitego',
-    contactDescription: 'Masz pomysł na projekt? Chętnie Cię wysłuchamy. Wyślij nam wiadomość, a odpowiemy tak szybko, jak to możliwe.',
-    connectWithUs: 'Połącz Się Z Nami',
-    emailUs: 'Napisz Do Nas',
-    responseTime: 'Zazwyczaj odpowiadamy w ciągu 24 godzin',
-    callUs: 'Zadzwoń Do Nas',
-    workingHours: 'Pn-Pt od 9:00 do 17:00',
-    visitUs: 'Odwiedź Nas',
-    scheduleAppointment: 'Tylko po umówieniu',
     fullName: 'Imię i Nazwisko',
     emailAddress: 'Adres Email',
     subjectPlaceholder: 'W czym możemy pomóc?',
@@ -417,7 +398,6 @@ const translations = {
     messageSent: 'Wiadomość Wysłana!',
     thankYou: 'Dziękujemy za kontakt! Odpowiemy w ciągu 24 godzin.',
     sendAnother: 'Wyślij Kolejną Wiadomość',
-    
     // Footer
     footerDescription: 'Przekształcamy pomysły w rzeczywistość.',
     company: 'Firma',
