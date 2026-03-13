@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useMemo } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
@@ -17,44 +16,53 @@ export default function PortfolioSection() {
       id: 1,
       title: t('corporateKeychains'),
       category: "keychains",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68dd2e6c444436f4bd155b40/79a777071_1.png",
+      image: "/assets/portfolio/pulp.jpg", // Tło
       description: t('corporateKeychainsDesc'),
       gallery: [
-        "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68dd2e6c444436f4bd155b40/79a777071_1.png",
-        "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68dd2e6c444436f4bd155b40/de86d4eff_3.png",
-        "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68dd2e6c444436f4bd155b40/4a5c7584e_2.png",
-        "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68dd2e6c444436f4bd155b40/369b8becd_6.png",
-        "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68dd2e6c444436f4bd155b40/d06e3ad05_5.png"
+        "/assets/portfolio/pulp.jpg",
+        "/assets/portfolio/0.jpg",
+        "/assets/portfolio/1.jpg",
+        "/assets/portfolio/3.png",
+        "/assets/portfolio/4.png",
+        "/assets/portfolio/5.png",
+        "/assets/portfolio/6.png",
+        "/assets/portfolio/8.png",
+        "/assets/portfolio/9.png",
+        "/assets/portfolio/11.png",
+        "/assets/portfolio/12.png",
+        "/assets/portfolio/13.jpg",
+        "/assets/portfolio/14.png"
       ]
     },
     {
       id: 2,
       title: t('customKeychains'),
       category: "keychains",
-      image: "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=800&h=600&fit=crop",
+      image: "/assets/portfolio/p1.jpg", // Tło wg życzenia
       description: t('customKeychainsDesc'),
       gallery: [
-        "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=800&h=600&fit=crop",
-        "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68dd2e6c444436f4bd155b40/150f72888_8.png",
-        "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68dd2e6c444436f4bd155b40/f736d2771_4.png",
-        "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68dd2e6c444436f4bd155b40/64420496f_9.png"
+        "/assets/portfolio/p1.jpg",
+        "/assets/portfolio/p11.jpg",
+        "/assets/portfolio/p2.jpg",
+        "/assets/portfolio/p3.jpg"
       ]
     },
     {
       id: 3,
       title: t('displayStand'),
       category: "stands",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68dd2e6c444436f4bd155b40/ddc4bab39_7.png",
+      image: "/assets/portfolio/s7.png", // Tło stojaki
       description: t('displayStandDesc'),
       gallery: [
-        "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68dd2e6c444436f4bd155b40/ddc4bab39_7.png",
-        "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68dd2e6c444436f4bd155b40/ed69d7a96_10.png"
+        "/assets/portfolio/s7.png",
+        "/assets/portfolio/s10.png"
       ]
     },
     {
       id: 4,
       title: t('arMenuSystem'),
       category: "digital",
+      // AR MENU - NIETKNIĘTE
       image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
       description: t('arMenuSystemDesc'),
       isARMenu: true
